@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
         setObserver()
-
     }
 
     override fun onClick(v: View) {
